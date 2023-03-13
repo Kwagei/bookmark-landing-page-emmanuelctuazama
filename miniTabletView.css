@@ -1,0 +1,37 @@
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+
+
+.interface-p {
+    display: block;
+    width: 490px; height: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 0;
+    overflow-x: hidden;
+    position: absolute;  right: 30px;
+    overflow-y: hidden;
+}
+
+
+.chrome{   
+    margin-top: 110px;
+    position: absolute; left: 75px;
+    overflow-y: hidden;
+}
+
+.firefox {
+    margin-top: 110px;
+    position: absolute; right: 120px;
+    overflow-y: hidden;
+}
+
+
+div, section, nav, footer { overflow-x: hidden; }
+
+body, html { overflow-x:hidden; }
+
+* {
+   overflow-x: hidden;
+}
+
+}

@@ -1,0 +1,238 @@
+@media only screen and (min-width: 360px) and (max-width: 414px){
+
+section {
+    margin-left: 5px; margin: 5px;
+    width: auto; height: auto;
+    overflow-x: hidden;
+    margin-bottom: 70px; margin-top: 20px;
+}
+
+.logo-top img {
+    margin-top: 10px;
+    height: 20px;
+    vertical-align: bottom;
+    overflow-y: hidden;
+}
+
+.topLinks, .login {
+    font-size: 10px;
+    display: none;
+    overflow-x: hidden;
+}
+
+nav {
+    overflow-y: hidden;
+}
+
+.hamburger img{
+    overflow-y: hidden;
+    margin-left: 120px;
+}
+
+
+
+
+.i-img img {
+    height: 250px;
+    position: absolute; top: 120px; left: 10px;
+}
+
+.bg-r, .bg-l {
+    display: none;
+}
+
+.bigHeading {
+    font-size: 28px;
+    text-align: center;
+    width: 300px;
+    margin-left: 35px; margin-right: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-top: 30px;
+}
+ 
+.interface-p {
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    position: absolute; margin-left: 0;
+    width: 340px; height: 120px;
+    overflow-y: hidden;
+}
+
+.interface-p br {
+    display: none;
+}
+
+.chrome, .firefox {
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 12px;
+    width: 100px; height: 20px;
+}
+
+.chrome {
+    padding-left: 10px; padding-right: 10px;
+    position: absolute;
+}
+
+.firefox {
+    position: absolute; margin-left: 190px;
+    padding-left: 10px; padding-right: 10px;
+}
+
+
+/* Features' section starts here */
+.feat-wrapper {
+    padding-top: 120px;
+}
+
+.feature {
+    font-size: 28px;
+}
+
+.tabs {
+    width: auto;
+    text-align: center;
+    height: 200px;
+    overflow-y: hidden;
+    margin-bottom: 100px;
+}
+
+.simpleBookmarking {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.speedSearching {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.easySharing {
+    display: block;
+    margin: auto;
+}
+
+.i-img2 img {
+    height: 170px;
+    position: absolute; left: 50px;
+    overflow-x: hidden;
+}
+
+
+/* Bookmark in one click [Heading] */
+.bmInOneClick h1 {
+    font-size: 28px;
+}
+
+.bmInOneClick {
+    display: block;
+    margin-top: 180px;
+    width: auto;
+    text-align: center;
+    overflow-x: hidden;
+    margin-right: 20px;
+}
+
+
+
+/* Download the extension's section starts here */
+
+    /* Download the extension's Heading */
+.down h1 {
+    font-size: 28px;
+}
+
+
+.down {
+    margin-top: 90px;
+}
+
+
+/* FAQs' starts here */
+    /* FAQs Heading */
+    .faqHead {
+        font-size: 28px;
+    }
+
+    /* FAQs (Lists) */
+    .faqLi, .hl hr {
+        width: 280px;
+    }
+
+    /* FAQs More-Info link */
+    .moreInfo, .m {
+        display: block;
+        width: 64px;
+        font-size: 13px;
+        text-align: center;
+        margin-right: auto; margin-left: auto;
+    }
+
+
+/* other info starts here */
+.upToDate {
+    font-size: 18px;
+}
+
+.upToDate br {
+    display: none;
+}
+/* Email/Contact Us*/
+.emailEg input, .b-contact {
+    display: block;
+    width: 250px;
+    margin: auto;
+    padding: 0;
+}
+
+/* Contact Us */
+.b-contact {
+    padding-top: 10px; padding-bottom: 10px;
+    margin-top: 8px;
+}
+
+
+/* Footer starts here */
+footer {
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.logo-bottom {
+    width: 140px;
+    margin: auto;
+}
+
+.logo-bottom, 
+.bottomLinkFeature, 
+.bottomLinkPricing, 
+.bottomLinkContact
+{
+    display: block;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+}
+
+.twttIcon, .fbIcon {
+    display: inline-block;
+    width: auto;
+    margin: auto;
+    float: none;
+    overflow-x: hidden;
+}
+
+
+/* Hiding Horizontal Overflow across the entire webpage */
+div, section, nav, footer { overflow-x: hidden; }
+
+body, html { overflow-x: hidden; }
+
+* {
+   overflow-x: hidden;
+}
+
+}

@@ -1,0 +1,196 @@
+@media only screen and (min-width: 601px) and (max-width: 1280px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    nav {
+        margin-left: 80px;
+        width: auto; height: auto;
+        margin-bottom: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .hamburger {
+        display: inline-block;
+    }
+
+    .topLinks, .login {
+        vertical-align: top;
+        display: none;
+     }
+
+    div .login {
+        display: inline;
+        margin-left: 15px;
+        vertical-align: bottom;
+        margin-right: 0;
+    }
+
+    .i-img img {
+        height: 350px;
+        position: absolute; left: 28px; top: 190px;
+        display: block;
+        margin-left: auto; margin-right: auto;
+    }
+
+
+    .bg-r {
+        display: none;
+    }
+
+    .bigHeading {
+        display: block;
+        overflow-y: hidden;
+        width: 350px;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 0;
+        height: 120px;
+        margin-top: 420px;
+        margin-left: auto; margin-right: auto;
+    } 
+
+    .interface-p {
+        display: block;
+        width: 490px; height: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 0; margin-left: 200px;
+        overflow-x: hidden;
+        position: absolute;  right: 180px;
+        overflow-y: hidden;
+    }
+
+    .chrome{
+        margin-top: 110px;
+        position: absolute; left: 150px;
+        overflow-y: hidden;
+    }
+
+    .firefox {
+        margin-top: 110px;
+        position: absolute; right: 210px;
+        overflow-y: hidden;
+    }
+
+    .feat-wrapper {
+        margin-top: 250px;
+    }
+
+    .simpleBookmarking, .speedSearching, .easySharing {
+        margin-left: 0;
+    }
+
+     hr {
+        width: 80%;
+    }
+
+    .bg-l {
+        display: none;
+    }
+
+    .i-img2{
+        display: block;
+        background-color: red;
+        align-items: center;
+        text-align: center;
+        width: auto;
+
+    }
+
+
+    .i-img2 img{
+        height: 300px;
+        position: absolute; left: 100px;
+    }
+  
+    .bmInOneClick {
+        display: block;
+        text-align: center;
+        margin-top: 300px; margin-left: 0;
+        width: auto;
+    }
+
+    .m {
+        margin-bottom: 100px;
+    }
+
+    .moreInfo {
+        height: 36px; width: 80px;
+
+    }
+
+    .logoChrome, .logoFirefox, .logoOpera {
+        height: 180px; width: 150px;
+        overflow-y: hidden; overflow-x: hidden;
+        text-align: center;
+        padding-bottom: 30px; padding-top: 10px;
+    }
+
+    .logoChrome img, .logoFirefox img, .logoOpera img {
+        height: 60px;
+        margin-top: 0;
+    }
+
+    .addTo {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    .miniV {
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+    .dots {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .ext {
+        width: 120px; height: 20px;
+        font-size: 10px;
+        margin-top: 2px;
+        padding-top: 8px; padding-bottom: 0px;
+    }
+
+    
+    .faqHead {
+        font-size: 30px;
+    }
+
+    .faqLi, .hl hr {
+        width: 340px;
+        overflow-x: hidden;
+    }
+
+    .moreInfo {
+        margin-left: auto; margin-right: auto;
+    }
+
+    .emailEg input, .b-contact {
+        display: block;
+        width: 320px;
+        margin: auto;
+    }
+
+    .b-contact {
+        padding-right: 0; padding-left: 0;
+        margin-top: 8px;
+    }
+
+
+
+    div, section, nav, footer { overflow-x: hidden; }
+
+    body, html { overflow-x:hidden; }
+
+* {
+   overflow-x: hidden;
+}
+
+}

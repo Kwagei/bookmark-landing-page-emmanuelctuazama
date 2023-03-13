@@ -1,0 +1,66 @@
+@media only screen and (min-width: 1024px) and (max-width: 1920px){
+
+section {
+   margin-top: 30px;
+   padding-top: 10px;
+}
+
+nav article{
+    display: none;
+}
+
+nav {
+   margin-bottom: 0;
+   display: inline-block;
+}
+
+.topLinks {
+   vertical-align: bottom;
+}
+
+.login {
+   overflow-y: hidden;
+   vertical-align: top;
+
+}
+
+.bigHeading {
+   overflow-y: hidden;
+   height: 175px;
+   margin-top: 20px;
+}
+
+.chrome, .firefox, nav {
+   overflow-y: hidden;
+}
+
+
+.i-img img {
+   height: 400px;
+   position: absolute; top: 160px;
+}
+
+.bg-r {
+   position: absolute; top: 290px; right: 10px;
+}
+
+.hl hr, .faq-list {
+   margin-left: auto; margin-right: auto;
+   width: 500px;
+}
+
+ .faq-list {
+    display: block;
+    text-align: center; 
+}
+   
+
+div, section, nav, footer { overflow-x: hidden; }
+
+body, html { overflow-x:hidden; }
+
+* {
+   overflow-x: hidden;
+}
+    
+}
